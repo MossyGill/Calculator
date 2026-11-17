@@ -1,0 +1,63 @@
+# ---------- 构建产物 ----------
+build/
+build-*/
+out/
+cmake-build-*/
+Debug/
+Release/
+x64/
+Win32/
+
+# ---------- Qt Creator 本地配置（含本机路径，不应进仓库）----------
+.qtcreator/
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+*.user
+*.user.*
+*.autosave
+*.qmlproject.user
+
+# ---------- CMake ----------
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+Makefile
+*.cmake.stamp
+
+# ---------- Qt 生成文件 ----------
+*_autogen/
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.moc
+*.qm
+
+# ---------- 编译输出 ----------
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.dSYM/
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.vs/
+*.swp
+*~
+Thumbs.db
+desktop.ini
+.DS_Store

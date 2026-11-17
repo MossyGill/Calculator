@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>left.png</file>
+        <file>left_pressed.png</file>
+    </qresource>
+</RCC>
